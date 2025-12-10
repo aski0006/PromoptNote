@@ -1,0 +1,26 @@
+# ========== 核心 npm 镜像配置 ==========
+# 主镜像（淘宝 npmmirror）
+registry=https://registry.npmmirror.com
+
+# ========== 各工具专属镜像（关键修正） ==========
+# Electron 镜像（Electron 安装脚本会读取该配置）
+ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
+# Electron 二进制包缓存路径（可选，加速重复安装）
+ELECTRON_CACHE=$HOME/.electron
+
+# Playwright 浏览器镜像
+PLAYWRIGHT_DOWNLOAD_HOST=https://npmmirror.com/mirrors/playwright/
+
+# node-sass 二进制包镜像
+sass_binary_site=https://npmmirror.com/mirrors/node-sass/
+
+# ========== 可选优化配置 ==========
+# 强制使用 HTTPS（避免 HTTP 镜像劫持）
+strict-ssl=true
+# 缓存目录（自定义，可选）
+cache=D:\nodejs\node_cache
+# 超时时间（适配国内网络）
+fetch-retry-mintimeout=2000
+fetch-retry-maxtimeout=10000
+# 禁用包锁文件版本校验（避免镜像源版本差异报错）
+lockfile-version=3

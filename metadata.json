@@ -1,0 +1,5 @@
+{
+  "name": "PromptNote Tool",
+  "description": "A Mac-style AI prompt manager with usage analytics, dark mode, and local storage persistence.",
+  "requestFramePermissions": []
+}
