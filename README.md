@@ -157,7 +157,7 @@ prompt-note-tool/
 
 如有问题或建议，请通过以下方式联系：
 
-- GitHub Issues: [https://github.com/aski0006/prompt-note-tool/issues](https://github.com/aski0006/prompt-note-tool/issues)
+- GitHub Issues: [https://github.com/aski0006/PromoptNote/issues]
 - Email: 3031007372@qq.com
 
 ## 🤩 致谢
